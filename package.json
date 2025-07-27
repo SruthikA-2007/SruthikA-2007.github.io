@@ -1,0 +1,16 @@
+{
+  "name": "sruthi-portfolio",
+  "version": "1.0.0",
+  "description": "This is Sruthi's portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "Sruthika K S",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.0.6"
+  }
+}
