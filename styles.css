@@ -222,18 +222,33 @@ body {
 }
 
 @media (max-width: 860px) {
+    .skill-category {
+        flex: 0 1 calc(48%);
+    }
     .skill-category h2 {
         font-size: 16px;
     }
     .skill-category h3 {
         font-size: 14px;
     }
+    .education-outline h2 {
+        line-height: 25px !important;
+    }
+    .education-outline h3 {
+        line-height: 20px;
+    }
+    
     .box:not(.skill-category,.education,.extra), .box-out-layer {
         padding: 30px;
         margin: 50px auto;
     }
+    
     .box:first-of-type {
-        margin-top: 100px;
+        margin-top: 40px;
+    }
+    .box-out-layer h1 {
+        line-height: 1.2;
+        margin-bottom: 0;
     }
 }
 
@@ -253,11 +268,12 @@ body {
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0,0,0,0.05);
     }
-    
     .nav-menu.active {
+
         left: 0;
     }
     
+
     .nav-menu li {
         margin: 1rem 0;
     }
@@ -302,7 +318,7 @@ body {
         line-height: 25px !important;
     }
     .box:first-of-type {
-        margin-top: 100px !important;
+        margin-top: 40px !important;
     }
     h3{
         font-size: 18px !important;
@@ -353,7 +369,7 @@ body {
         font-size: 14px;
     }
     .box:first-of-type {
-        margin-top: 100px !important;
+        margin-top: 40px !important;
     }
 }
 .clickable-box {
