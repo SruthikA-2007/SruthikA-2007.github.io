@@ -338,7 +338,7 @@ body {
 @media (max-width: 480px) {
     .box:not(.skill-category,.education,.extra), .box-out-layer {
         padding: 15px !important;
-        margin: 20px auto !important;
+        margin: 35px auto !important;
         max-width: 90%;
     }
     .skills-container {
