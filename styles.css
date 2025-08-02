@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    margin:0px auto;
+    margin:10px auto;
 }
 
 .box{
@@ -130,6 +130,7 @@ body {
     gap: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
+   
 }
 
 .extra {
@@ -182,7 +183,7 @@ body {
 
 @media (max-width: 1160px) {
     .extra-outline {
-        gap: 15px;
+        gap: 10px;
     }
     .extra {
         max-width: 30%;
@@ -222,6 +223,7 @@ body {
 }
 
 @media (max-width: 860px) {
+    
     .skill-category {
         flex: 0 1 calc(48%);
     }
@@ -306,7 +308,13 @@ body {
     }
     .extra h1 {
         font-size: 60px !important;
+        line-height: 35px !important;
     }
+    .extra h2 {
+        line-height: 35px !important;
+    }
+    
+    
     h2{
         font-size: 20px !important;
         line-height: 5px !important;
